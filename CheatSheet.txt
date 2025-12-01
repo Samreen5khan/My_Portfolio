@@ -1,0 +1,25 @@
+setup:
+-> npm create vite@latest ./ -- --template react
+-> install and initialise Tailwind css
+-> npm install 
+	--legacy-peer-deps : uses older version of react to support older versions
+	@react-three/fiber @react : allows 3jscloth in react fashio
+	@react-three/drei math : math functions
+	react-tilt : cool animations
+	react-vertical-timeline-component : for experience similar to the one on linkedin
+	@emailjs/browser
+	framer-motion
+	react-router-dom
+-> npm install --legacy-peers-deps -D postcss autoprefixer
+-> npx tailwindcss init -p
+-> npm install --legacy-peers-deps three
+-> npm i maath
+
+
+Dependencies:
+- Tailwind Css
+- nodejs
+- emailjs
+	* Create account in emailjs
+	* Create template
+	* use template id, service id, public key inside emailjs Username
